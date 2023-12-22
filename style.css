@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+    padding: 19px 12px;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding: 0 13px;
+    font-size: 13px;
+}
+ul li a{
+    color:aliceblue;
+    text-decoration: none;
+
+}
+ul>li>a:hover{
+    color:rgb(146, 136, 136)
+}
+
+footer{
+    font-size: 12px;
+    background-color:black;
+    color: white;
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+main{
+    min-height:100vh;
+    padding: 3px;
+}
+
+.container{
+    background-color: rgb(130, 141, 151);
+    max-width: 80vw;
+    margin: auto;
+    padding: 9px 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+input[type='text']{
+    min-width: 244px;
+    padding: 3px 12px;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 20px;
+
+}
+
+@media only screen and (max-width: 600px){
+
+.container{
+    font-size: 12px;
+}
+.conainer h1{
+    padding: 12px 0;
+}
+
+
+.logo{
+    padding: 6px 0;
+    
+}
+}
+
+.logo img{
+    width: 15px;
+    filter: invert(1);
+}
+
+#resultcont div::first-letter { 
+    text-transform: uppercase;
+}
+.btn{
+    background-color: rgb(7, 0, 0);
+    /* color: rgb(153, 152, 152); */
+     color: rgb(255, 255, 255);
+     padding: 9px 12px;
+     border: 1px solid gray;
+     border-radius: 6px;
+     cursor: pointer;
+ }
+
+ #abo{
+    font-size: 30px;
+ }
+
+ .yiyi a{
+    color:aliceblue;
+    text-decoration: none;
+ }
+ span{
+    font-size: 25px;
+ }
+ #oo{
+    font-size: 25px;
+ }
