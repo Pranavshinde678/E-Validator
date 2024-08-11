@@ -3,28 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
     <title>About Us - E-Validator</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+        
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: black;
+            color: aliceblue;
+            padding: 19px 12px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            display: flex;
+        }
+        ul li{
+            list-style: none;
+            padding: 0 13px;
+            font-size: 17px;
+        }
+        ul li a{
+            color:aliceblue;
+            text-decoration: none;
+        
+        }
+        ul>li>a:hover{
+            color:rgb(146, 136, 136)
+        }
+        
+        footer{
+            font-size: 17px;
+            background-color:black;
+            color: white;
+            display: flex;
+            padding: 12px;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Ubuntu', sans-serif;
+            padding: 20px;
+        
+        }
+        main{
+            min-height:100vh;
+            padding: 3px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        p {
+            line-height: 1.8;
+            color: #555;
+        }
+    
+        input[type='text']{
+            min-width: 244px;
+            padding: 3px 12px;
+            border: 2px solid black;
+            border-radius: 3px;
+            font-size: 20px;
+        
+        }
+        
+        @media only screen and (max-width: 600px){
+        
+        .container{
+            font-size: 12px;
+        }
+        .conainer h1{
+            padding: 12px 0;
+        }
+        
+        
+        .logo{
+            padding: 6px 0;
+            
+        }
+        }
+        
+        .logo img{
+            width: 15px;
+            filter: invert(1);
+        }
+        
+        #resultcont div::first-letter { 
+            text-transform: uppercase;
+        }
+        .btn{
+            background-color: rgb(7, 0, 0);
+            /* color: rgb(153, 152, 152); */
+             color: rgb(255, 255, 255);
+             padding: 9px 12px;
+             border: 1px solid gray;
+             border-radius: 6px;
+             cursor: pointer;
+         }
+        
+         #abo{
+            font-size: 30px;
+         }
+        
+         .yiyi a{
+            color:aliceblue;
+            text-decoration: none;
+         }
+         span{
+            font-size: 25px;
+         }
+         #oo{
+            font-size: 25px;
+         }
+    </style>
 </head>
 <body>
-    <!-- <header>
-        <h1>E-Validator</h1>
-    </header> -->
-
     <nav class="yiyi">
         <span id="oo">E-Validator</span>
         <ul>
-       <li> <a href="index.html">Home</a></li>
-    <li> <a href="about.html">About</a></li>
-<li> <a href="mailto:pranavvvvshinde@gmail.com">Contact Us</a></li>
-    </ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="mailto:pranavvvvshinde@gmail.com">Contact Us</a></li>
+        </ul>
     </nav>
 
     <main>
         <div class="container">
             <h2>About Us</h2>
             <p>
-                Hello, I'm Pranav Shinde, a Computer Science undergraduate in my pre-final year. I'm excited to introduce you to E-Validator, a project that emerged from my passion for web development and data integrity.
+                Hello, I'm Pranav Shinde, a Computer Science undergraduate. I'm excited to introduce you to E-Validator, a project that emerged from my passion for web development and data integrity.
 
                 E-Validator is my solution to the need for a reliable email validation tool. With a focus on both the format and existence of email addresses, the project utilizes advanced algorithms to deliver accurate and instantaneous results.
 
@@ -36,7 +157,7 @@
     </main>
 
     <footer>
-        Copyright | E-Validator.com | All Rights reserved
+        Open Source - 2023 by Pranav Shinde
     </footer>
 </body>
 </html>
